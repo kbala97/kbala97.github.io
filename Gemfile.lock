@@ -264,6 +264,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll (~> 3.9.2)
+  jekyll-include-cache
   jekyll-remote-theme
   kramdown-parser-gfm
   minimal-mistakes-jekyll
