@@ -7,3 +7,5 @@ gem "jekyll-remote-theme"
 
 # github-pages plugins
 gem "github-pages", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
+
