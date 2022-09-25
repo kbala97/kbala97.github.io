@@ -9,22 +9,22 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Site Title</title>
-<meta name="description" content="An amazing website.">
+<!-- begin _includes/seo.html --><title>Thoughts in Motion</title>
+<meta name="description" content="This is Mauro’s personal website. Motion designer, music lover, overall nerd.">
 
 
-  <meta name="author" content="Your Name">
+  <meta name="author" content="Mauro Di Ianni">
   
 
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="Site Title">
-<meta property="og:title" content="Site Title">
+<meta property="og:site_name" content="Thoughts in Motion">
+<meta property="og:title" content="Thoughts in Motion">
 <meta property="og:url" content="http://localhost:4000/">
 
 
-  <meta property="og:description" content="An amazing website.">
+  <meta property="og:description" content="This is Mauro’s personal website. Motion designer, music lover, overall nerd.">
 
 
 
@@ -35,10 +35,6 @@
 
 
 
-
-  
-
-  
 
 
 <link rel="canonical" href="http://localhost:4000/">
@@ -51,7 +47,7 @@
     "@context": "https://schema.org",
     
       "@type": "Person",
-      "name": "Your Name",
+      "name": null,
       "url": "http://localhost:4000/"
     
   }
@@ -67,7 +63,7 @@
 
 
 
-  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Site Title Feed">
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Thoughts in Motion Feed">
 
 
 <!-- https://t.co/dKP3o1e -->
@@ -101,6 +97,10 @@
   </ul>
 </nav>
 
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
     
 
 <div class="masthead">
@@ -109,10 +109,15 @@
       <nav id="site-nav" class="greedy-nav">
         
         <a class="site-title" href="/">
-          Site Title
-          
+          Thoughts in Motion
+          <span class="site-subtitle">// a personal website //</span>
         </a>
         <ul class="visible-links"></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
         
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle menu</span>
@@ -136,17 +141,23 @@
   
 
 
-<div itemscope itemtype="https://schema.org/Person" class="h-card">
+<div itemscope itemtype="https://schema.org/Person">
 
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/profile_picture.jpg" alt="Mauro Di Ianni" itemprop="image">
+      
+    </div>
   
 
   <div class="author__content">
-    <h3 class="author__name p-name" itemprop="name">
-      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Your Name</a>
-    </h3>
     
-      <div class="author__bio p-note" itemprop="description">
-        <p>I am an <strong>amazing</strong> person.</p>
+      <h3 class="author__name" itemprop="name">Mauro Di Ianni</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Motion designer, music lover, overall nerd. Pronouns: he/him.</p>
 
       </div>
     
@@ -157,22 +168,38 @@
     <ul class="author__urls social-icons">
       
         <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Somewhere</span>
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">London, UK</span>
         </li>
       
 
       
         
           
-        
+            <li><a href="mailto:blog@mauromotion.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope" aria-hidden="true"></i><span class="label">Email</span></a></li>
           
         
           
-        
+            <li><a href="https://mauromotion.com" rel="nofollow noopener noreferrer"><i class="fab fa-behance-square" aria-hidden="true"></i><span class="label">Portfolio</span></a></li>
           
         
           
+            <li><a href="https://mograph.social/@mauro" rel="nofollow noopener noreferrer"><i class="fab fa-mastodon" aria-hidden="true"></i><span class="label">Mastodon</span></a></li>
+          
         
+          
+            <li><a href="https://twitter.com/mauromograph" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+            <li><a href="https://www.reddit.com/user/mauro_mograph" rel="nofollow noopener noreferrer"><i class="fab fa-reddit" aria-hidden="true"></i><span class="label">Reddit</span></a></li>
+          
+        
+          
+            <li><a href="https://www.last.fm/user/madmonk_TM_" rel="nofollow noopener noreferrer"><i class="fab fa-lastfm-square" aria-hidden="true"></i><span class="label">Last.fm</span></a></li>
+          
+        
+          
+            <li><a href="https://www.discogs.com/user/theRealMadmonk" rel="nofollow noopener noreferrer"><i class="fas fa-record-vinyl" aria-hidden="true"></i><span class="label">Discogs</span></a></li>
           
         
       
@@ -227,7 +254,7 @@
 
       <!--
   <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
       <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
     </a>
   </li>
@@ -263,7 +290,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/jekyll/welcome-to-jekyll/" rel="permalink">Welcome to Jekyll!
+        <a href="/jekyll/2016/02/24/welcome-to-jekyll.html" rel="permalink">Welcome to Jekyll!
 </a>
       
     </h2>
@@ -271,19 +298,16 @@
 
   <p class="page__meta">
     
-
-    
-
-    
       
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
         
-          less than 1 minute read
-        
+        <time datetime="2016-02-24T00:00:00-05:00">February 24, 2016</time>
       </span>
+    
+
+    
+
     
   </p>
 
@@ -303,6 +327,17 @@
     </div>
 
     
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
 
     <div id="footer" class="page__footer">
       <footer>
@@ -316,15 +351,11 @@
     
       
         
-      
+          <li><a href="https://mograph.social/@mauro" rel="nofollow noopener noreferrer"><i class="fab fa-mastodon" aria-hidden="true"></i> Mastodon</a></li>
         
       
         
-      
-        
-      
-        
-      
+          <li><a href="https://twitter.com/mauromograph" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
         
       
     
@@ -335,7 +366,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2022 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 Thoughts in Motion. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
@@ -345,6 +376,10 @@
 
 
 
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
 
 
 
