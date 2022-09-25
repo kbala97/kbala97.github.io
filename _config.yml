@@ -1,18 +1,18 @@
-title: "Thoughts in Motion"
-subtitle: // a personal website //
-email: blog@mauromotion.com
-description: "This is Mauro's personal website. Motion designer, music lover, overall nerd."
+title: "Tech and Oncology"
+subtitle: // Tech is impacting oncology significantly to improve patient outcomes! //
+email: krishna.bala@yahoo.com
+description: "The purpose of this blog is to give the readers some insight into technologies that are impacting oncology and patient care!"
 # domain: blog.mauromotion.com
 #url: https://blog.mauromotion.com
 # baseurl: "/thoughts-in-motion"
-twitter_username: mauromograph
-github_username:  mauromotion
+twitter_username: kbala9702
+github_username:  kbala97
 #logo: "/assets/images/MauroMotion_logo_v002.png"
 github: [metadata]
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "default" # "air"contrast", "aqua", "dirt", "sunrise", "dark", "default", "neon", "plum", "mint"
+minimal_mistakes_skin: "dirt" # "default", "air"contrast", "aqua", "sunrise", "dark", "neon", "plum", "mint"
 search: true
 
 plugins:
@@ -21,33 +21,36 @@ plugins:
 
 # Site Author
 author:
-  name             : "Mauro Di Ianni"
-  avatar           : "assets/images/profile_picture.jpg"
-  bio              : "Motion designer, music lover, overall nerd. Pronouns: he/him."
-  location         : "London, UK"
+  name             : "Krishna Bala, Ph.D."
+# avatar           : "assets/images/profile_picture.jpg"
+  bio              : "Sr. VP Engineering"
+  location         : "New York, NY"
   email            : 
   links:
-    - label: "Email"
-      icon: "fas fa-envelope"
-      url: "mailto:blog@mauromotion.com"
-    - label: "Portfolio"
-      icon: "fab fa-behance-square"
-      url: "https://mauromotion.com"
-    - label: "Mastodon"
-      icon: "fab fa-mastodon"
-      url: "https://mograph.social/@mauro"
+    # - label: "Email"
+    #   icon: "fas fa-envelope"
+    #   url: "mailto:krishna.bala@.com"
+    # - label: "Portfolio"
+    #   icon: "fab fa-behance-square"
+    #   url: "https://mauromotion.com"
+    # - label: "Mastodon"
+    #   icon: "fab fa-mastodon"
+    #   url: "https://mograph.social/@mauro"
     - label: "Twitter"
       icon: "fab fa-twitter-square"
-      url: "https://twitter.com/mauromograph"
-    - label: "Reddit"
-      icon: "fab fa-reddit"
-      url: "https://www.reddit.com/user/mauro_mograph"
-    - label: "Last.fm"
-      icon: "fab fa-lastfm-square"
-      url: "https://www.last.fm/user/madmonk_TM_"
-    - label: "Discogs"
-      icon: "fas fa-record-vinyl"
-      url: "https://www.discogs.com/user/theRealMadmonk"
+      url: "https://twitter.com/kbala9702"
+    # - label: "Reddit"
+    #   icon: "fab fa-reddit"
+    #   url: "https://www.reddit.com/user/mauro_mograph"
+    # - label: "Last.fm"
+    #   icon: "fab fa-lastfm-square"
+    #   url: "https://www.last.fm/user/madmonk_TM_"
+    # - label: "Discogs"
+    #   icon: "fas fa-record-vinyl"
+    #   url: "https://www.discogs.com/user/theRealMadmonk"
+      - label: "LinkedIn"
+      icon: "fab fa-linkedIn-square"
+      url: "https://linkedin.com/kbala97"
     
     
 include: ["_pages"]
@@ -77,12 +80,15 @@ category_archive:
 
 footer:
   links:
-    - label: "Mastodon"
-      icon: "fab fa-mastodon"
-      url: "https://mograph.social/@mauro"
+    # - label: "Mastodon"
+    #   icon: "fab fa-mastodon"
+    #   url: "https://mograph.social/@mauro"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mauromograph"
+      url: "https://twitter.com/kbala9702"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedIn-square"
+      url: "https://linkedin.com/kbala97"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
