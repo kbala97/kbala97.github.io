@@ -1,5 +1,5 @@
 title: "Tech and Oncology"
-subtitle: // Tech is impacting oncology significantly to improve patient outcomes! //
+subtitle: Tech is impacting oncology significantly to improve patient outcomes!
 email: krishna.bala@yahoo.com
 description: "The purpose of this blog is to give the readers some insight into technologies that are impacting oncology and patient care!"
 # domain: blog.mauromotion.com
@@ -25,32 +25,13 @@ author:
 # avatar           : "assets/images/profile_picture.jpg"
   bio              : "Sr. VP Engineering"
   location         : "New York, NY"
-  email            : 
   links:
-    # - label: "Email"
-    #   icon: "fas fa-envelope"
-    #   url: "mailto:krishna.bala@.com"
-    # - label: "Portfolio"
-    #   icon: "fab fa-behance-square"
-    #   url: "https://mauromotion.com"
-    # - label: "Mastodon"
-    #   icon: "fab fa-mastodon"
-    #   url: "https://mograph.social/@mauro"
     - label: "Twitter"
       icon: "fab fa-twitter-square"
       url: "https://twitter.com/kbala9702"
-    # - label: "Reddit"
-    #   icon: "fab fa-reddit"
-    #   url: "https://www.reddit.com/user/mauro_mograph"
-    # - label: "Last.fm"
-    #   icon: "fab fa-lastfm-square"
-    #   url: "https://www.last.fm/user/madmonk_TM_"
-    # - label: "Discogs"
-    #   icon: "fas fa-record-vinyl"
-    #   url: "https://www.discogs.com/user/theRealMadmonk"
-      - label: "LinkedIn"
-      icon: "fab fa-linkedIn-square"
-      url: "https://linkedin.com/kbala97"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/kbala97"
     
     
 include: ["_pages"]
